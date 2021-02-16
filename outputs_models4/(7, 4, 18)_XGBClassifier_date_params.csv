@@ -1,0 +1,3 @@
+,0
+Start_Test,2012-08-01
+get_p,"{'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'colsample_bylevel': 0.8, 'colsample_bynode': None, 'colsample_bytree': 0.7, 'gamma': 0, 'gpu_id': None, 'importance_type': 'gain', 'interaction_constraints': None, 'learning_rate': 0.3277216650659332, 'max_delta_step': None, 'max_depth': 6, 'min_child_weight': 6.312088448366947, 'missing': nan, 'monotone_constraints': None, 'n_estimators': 100, 'n_jobs': -1, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': None, 'reg_lambda': 12.544051430643322, 'scale_pos_weight': None, 'subsample': 0.9, 'tree_method': None, 'validate_parameters': None, 'verbosity': None, 'silent': False}"

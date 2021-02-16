@@ -1,0 +1,3 @@
+,0
+Start_Test,2012-10-01
+get_p,"{'C': 3.8741400081038297, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 0.5779116969901875, 'kernel': 'rbf', 'max_iter': 100, 'probability': True, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': True}"
