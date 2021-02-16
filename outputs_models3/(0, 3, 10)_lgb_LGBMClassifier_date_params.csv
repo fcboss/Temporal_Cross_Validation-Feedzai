@@ -1,0 +1,3 @@
+,0
+Start_Test,2012-01-01
+get_p,"{'boosting_type': 'dart', 'class_weight': None, 'colsample_bytree': 0.602804568903335, 'importance_type': 'split', 'learning_rate': 0.1286533878235534, 'max_depth': 61, 'min_child_samples': 473, 'min_child_weight': 10.0, 'min_split_gain': 0.0, 'n_estimators': 100, 'n_jobs': -1, 'num_leaves': 11, 'objective': None, 'random_state': None, 'reg_alpha': 0.38881864731536653, 'reg_lambda': 1.276954761904551, 'silent': True, 'subsample': 0.8567945838783482, 'subsample_for_bin': 200000, 'subsample_freq': 0, 'metric': 'mae', 'min_data': 40, 'sub_feature': 0.44001848582539516}"

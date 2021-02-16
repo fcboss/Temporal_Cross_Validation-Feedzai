@@ -1,0 +1,3 @@
+,0
+Start_Test,2012-06-01
+get_p,"{'C': 3.1966342568668944, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 315.2473836461305, 'multi_class': 'auto', 'n_jobs': -1, 'penalty': 'l1', 'random_state': 0, 'solver': 'saga', 'tol': 0.1088024288293846, 'verbose': 0, 'warm_start': False}"
