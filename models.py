@@ -11,26 +11,25 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import precision_score, accuracy_score, recall_score
 
 
-from torch import nn
-import torch.nn.functional as F
-from skorch import NeuralNetClassifier
+# from torch import nn
+# import torch.nn.functional as F
 
-class MyModule(nn.Module):
-    def __init__(self, num_units=10, nonlin=F.relu):
-        super(MyModule, self).__init__()
+# class MyModule(nn.Module):
+#     def __init__(self, num_units=10, nonlin=F.relu):
+#         super(MyModule, self).__init__()
 
-        self.dense0 = nn.Linear(111, num_units)
-        self.nonlin = nonlin
-        self.dropout = nn.Dropout(0.5)
-        self.dense1 = nn.Linear(num_units, 10)
-        self.output = nn.Linear(10, 2)
+#         self.dense0 = nn.Linear(111, num_units)
+#         self.nonlin = nonlin
+#         self.dropout = nn.Dropout(0.5)
+#         self.dense1 = nn.Linear(num_units, 10)
+#         self.output = nn.Linear(10, 2)
 
-    def forward(self, X, **kwargs):
-        X = self.nonlin(self.dense0(X.float()))
-        X = self.dropout(X)
-        X = F.relu(self.dense1(X))
-        X = F.softmax(self.output(X))
-        return X
+#     def forward(self, X, **kwargs):
+#         X = self.nonlin(self.dense0(X.float()))
+#         X = self.dropout(X)
+#         X = F.relu(self.dense1(X))
+#         X = F.softmax(self.output(X))
+#         return X
 
 
 
@@ -85,12 +84,12 @@ param_dec_tree = {"max_depth": [1,5,10,50,100,500, None],
               "criterion": ["gini", "entropy"]}
 
 
-params_skorch = {
-    'lr':  loguniform(a=0.001,b=5),
-    'max_epochs': [10,20],
-    'module__num_units': [10, 20],
-    'module':[MyModule]
-}
+# params_skorch = {
+#     'lr':  loguniform(a=0.001,b=5),
+#     'max_epochs': [10,20],
+#     'module__num_units': [10, 20],
+#     'module':[MyModule]
+# }
 
 
 params_lgbm = {'learning_rate': [np.random.uniform(0, 1)],
