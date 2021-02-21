@@ -1,0 +1,3 @@
+,0
+Start_Test,2012-04-01
+get_p,"{'boosting_type': 'gbdt', 'class_weight': None, 'colsample_bytree': 0.4748998344940516, 'importance_type': 'split', 'learning_rate': 0.4467308038326697, 'max_depth': 156, 'min_child_samples': 411, 'min_child_weight': 0.01, 'min_split_gain': 0.0, 'n_estimators': 100, 'n_jobs': -1, 'num_leaves': 29, 'objective': None, 'random_state': None, 'reg_alpha': 0.18957824362035977, 'reg_lambda': 0.44910871028850896, 'silent': True, 'subsample': 0.7994035336505918, 'subsample_for_bin': 200000, 'subsample_freq': 0, 'metric': 'mae', 'min_data': 43, 'sub_feature': 0.052510567873184866}"
